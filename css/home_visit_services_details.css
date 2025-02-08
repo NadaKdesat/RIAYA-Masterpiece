@@ -141,7 +141,7 @@ body {
 }
 
 .service-card button {
-    background-color: #003366;
+    background-color: #053D76;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -153,7 +153,7 @@ body {
 }
 
 .service-card button:hover {
-    background-color: #00509e;
+    background-color: rgb(3, 52, 101);
 }
 
 @media (max-width: 768px) {
