@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RIAYA - Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/Logo-removebg2.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/sing_up.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/scrllbar.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="Sign_Up">
+        <div class="form-section">
+            <h1>Sign Up</h1>
+            <form>
+                <div class="name">
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Last name" required>
+                </div>
+                <input type="email" placeholder="Email address" required>
+                <input type="tel" placeholder="Phone number" required>
+                <input type="text" placeholder="Your address" required>
+                <select required>
+                    <option value="" disabled selected>Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <input type="date" placeholder="date of birth" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <div class="checkbox">
+                    <input class="Checkbox" type="checkbox" required>
+                    <span>By creating an account, I agree to our <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a>.</span>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="./log_in.html">Log in</a></p>
+        </div>
+        <div class="image-section"></div>
+    </div>
+    <div id="footer"></div>
+    <script src='./javascript/navbar&footer.js'></script>
+    <script src='./javascript/sing_up.js'></script>
+</body>
+</html>
